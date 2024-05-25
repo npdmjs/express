@@ -28,7 +28,12 @@ export const createNpdmRouter = (options: InMemoryDynamicLoaderOptions = {}): Ro
       if (e instanceof RestrictedPackageError) {
         return response.sendStatus(400);
       }
+      console.error(e);
       return response.sendStatus(500);
+    }
+
+    if (!asset) {
+      return response.sendStatus(404);
     }
 
     response.send(asset);
