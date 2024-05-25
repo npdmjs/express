@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.0](https://github.com/npdmjs/express/compare/v1.0.0...v1.1.0) (2024-05-25)
+
+
+### Features
+
+* add explicit 404 status if asset is not found ([39ab10e](https://github.com/npdmjs/express/commit/39ab10e32c0eb48ab4bc9a4084945d6335a5900b))
+
 ## 1.0.0 (2024-05-18)
 
 
